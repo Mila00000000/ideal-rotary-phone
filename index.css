@@ -1,0 +1,122 @@
+body{
+    font-family: monospace;
+}
+header{
+    padding: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px 4px rgb(110, 108, 108);
+    background-color: rgb(241, 240, 240);
+}
+h1{
+    position: absolute;
+    top: 17px;
+    left: 40px
+    
+}
+h1:hover{
+    font-size: 30px;
+    transition: .4s;
+}
+h2{
+    font-family: inherit;
+    font-size: 15px;
+}
+h2:hover{
+    font-size: 17px;
+    transition: .4s;
+}
+h3{
+    font-size: 14px;
+    position: relative;
+    left:90px;
+}
+h3:hover{
+    font-size: 16px;
+    transition: .4s;
+}
+h4{
+    color: white;
+    text-shadow:1px 1px 3px rgb(159, 155, 159);
+    font-family: inherit;
+    font-size: 17px; 
+}
+h5{
+    text-shadow:1px 1px 3px rgb(159, 155, 159);
+    font-family: inherit;
+    position: relative;
+    bottom: 70px;
+    right: 60px;
+    font-size: 17px; 
+}
+h6{
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+    color: white;
+    text-shadow:1px 1px 3px rgb(159, 155, 159);
+    font-family: inherit;
+    font-size: 17px; 
+}
+h7{
+    position: relative;
+    bottom: 70px;
+    font-size: 14px;
+}
+h7:hover{
+    font-size: 16px ;
+    transition: .4s;
+}
+main{
+    padding: 35px;
+    background-color: rgb(206, 205, 205);
+}
+img{
+    opacity: .75;
+    position: relative;
+    left: 300px;
+    border-radius: 20px;
+    height: 150px;
+    width: 180px;
+}
+img:hover{
+    border: dashed rgb(90, 89, 88) 5px ;
+    height: 170px;
+    width: 200px;
+    transition: .4s;
+    opacity: 1; 
+}
+li{
+    font-size: 15px;
+    width: 20px;
+    padding: 5px;
+    font-family: monospace;
+    color: rgb(119, 117, 117);
+}
+li:hover{
+    transition: .3s;
+    font-size: 16px;
+    color: rgb(35, 35, 35);
+}
+.lila{
+    color: white;
+    padding: 90px;
+    background-color: rgb(241, 240, 240);
+
+}
+p{
+   font-size: 15px;
+   position: relative;
+   left: 350px;
+   top: 50px;
+   color: rgb(59, 59, 59);
+    
+}
+p:hover{
+    font-size: 16px ;
+    transition: .4s;
+}
+footer{
+    padding: 80px;
+    background-color: rgb(206, 205, 205); 
+}
+
